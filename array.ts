@@ -1,4 +1,18 @@
 // add type for productList
+
+type productList = {
+  id: number;
+  title: string;
+  price: number;
+  description: string;
+  category: string;
+  image: string;
+  rating: {
+    rate: number;
+    count: number;
+  };
+};
+
 const productList = [
   {
     id: 1,

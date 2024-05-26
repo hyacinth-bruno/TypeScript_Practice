@@ -4,7 +4,14 @@
 
 // way 2 using union type
 
-const personArray = [
+type Person = {
+  name: string;
+  age: number;
+  occupation?: string;
+  role?: string;
+};
+
+const personArray: Person[] = [
   {
     name: "Max Mustermann",
     age: 26,

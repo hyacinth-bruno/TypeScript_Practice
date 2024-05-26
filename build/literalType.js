@@ -1,8 +1,7 @@
 "use strict";
 // declare a variable that have literal type as your name
+const myName = "John Doe";
 // declare a variable that have literal type as your age
-// let animal: string = "lion";
-// let animal: "lion" = "cat";
-// let numbers: 3
-// numbers = 9
-const randomNumber = 10;
+const myAge = 30;
+console.log(myName); // Output: Andrea
+console.log(myAge); // Output: 26
